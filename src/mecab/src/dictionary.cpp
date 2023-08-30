@@ -18,6 +18,8 @@
 #include "scoped_ptr.h"
 #include "utils.h"
 #include "writer.h"
+#include <functional>       // needs to include for std::binary_function
+#include <utility>          // needs to include for std::pair
 
 namespace MeCab {
 namespace {
